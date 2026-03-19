@@ -136,6 +136,3 @@
 * [ ] Counting Bits
 * [ ] Missing Number
 * [ ] Find XOR of all subsets of a set
-
-* [ ] Missing Number
-* [ ] Find XOR of all subsets of a set
