@@ -6,8 +6,8 @@
 * [x] Pair with the given Sum
 * [x] Best Time to Buy and Sell Stock
 * [x] Product of Array Except Self
-* [ ] Maximum Subarray
-* [ ] Container With Most Water
+* [x] Maximum Subarray
+* [x] Container With Most Water
 * [ ] Factorial of a large number
 * [ ] Trapping Rain Water
 * [ ] Insert and Merge Intervals
