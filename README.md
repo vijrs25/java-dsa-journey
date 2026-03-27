@@ -8,8 +8,8 @@
 * [x] Product of Array Except Self
 * [x] Maximum Subarray
 * [x] Container With Most Water
-* [ ] Factorial of a large number
-* [ ] Trapping Rain Water
+* [x] Factorial of a large number
+* [x] Trapping Rain Water
 * [ ] Insert and Merge Intervals
 * [ ] Merge Intervals
 
