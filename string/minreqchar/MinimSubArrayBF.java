@@ -1,7 +1,18 @@
 package string.minreqchar;
 
 public class MinimSubArrayBF {
+	
+    public static void main(String[] args) {
+        String s = "timetopractice";
+        String p = "toc";
 
+        String result = minWindow(s, p);
+
+        if (!result.isEmpty())
+            System.out.println(result);
+        else
+            System.out.println("");
+    }
 	
 	   // Function to check if a substring contains
     // all characters of the pattern
@@ -60,18 +71,6 @@ public class MinimSubArrayBF {
         }
 
         return res;
-    }
-
-    public static void main(String[] args) {
-        String s = "timetopractice";
-        String p = "toc";
-
-        String result = minWindow(s, p);
-
-        if (!result.isEmpty())
-            System.out.println(result);
-        else
-            System.out.println("");
     }
 }
 
