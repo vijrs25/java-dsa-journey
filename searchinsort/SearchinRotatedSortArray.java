@@ -11,13 +11,13 @@ public class SearchinRotatedSortArray {
 		int[] arr = { 5, 6, 7, 8, 9, 10, 1, 2, 3 };
 		int k = 2;
 		// System.out.println(indexOfKey(arr, k));
-		
+
 		for (int i = 0; i < arr.length; i++) {
-			System.out.print("__"+i  );
+			System.out.print("__" + i);
 		}
 		System.out.println();
 		for (int i = 0; i < arr.length; i++) {
-			System.out.print("__"+arr[i] );
+			System.out.print("__" + arr[i]);
 		}
 		System.out.println(indexOfKeyBinary(arr, k));
 	}
@@ -39,19 +39,21 @@ public class SearchinRotatedSortArray {
 		while (l <= r) {
 			System.out.println(" In while ");
 			int mid = l + (r - l) / 2;
-			System.out.println("mid "+mid);
+			System.out.println("mid " + mid);
 			if (arr[mid] == key)
 				return mid;
 			if (arr[l] <= arr[mid]) {
-				System.out.println( "left sorted");
+				System.out.println("left sorted");
 				if (key < arr[mid] && key >= arr[l]) {
-					{r = mid - 1;
-					System.out.println("LS r "+r );}
-				} else
-					{l = mid + 1;
-					System.out.println("RS l "+l );
+					{
+						r = mid - 1;
+						System.out.println("LS r " + r);
 					}
-				
+				} else {
+					l = mid + 1;
+					System.out.println("RS l " + l);
+				}
+
 			} else {
 				if (key > arr[mid] && key <= arr[r]) {
 					l = mid + 1;
