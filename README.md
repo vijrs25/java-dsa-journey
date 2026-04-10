@@ -21,11 +21,11 @@
 
 ## 📌 String
 
-* [ ] Longest Substring Without Repeating
-* [ ] Longest Repeating Character Replacement
-* [ ] Smallest window containing all characters
-* [ ] Print all anagrams together
-* [ ] Sentence Palindrome
+* [x] Longest Substring Without Repeating
+* [x] Longest Repeating Character Replacement
+* [x] Smallest window containing all characters
+* [x] Print all anagrams together
+* [x] Sentence Palindrome
 * [ ] Longest Palindromic Substring
 * [ ] Palindromic Substrings
 
