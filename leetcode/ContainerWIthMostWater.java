@@ -12,8 +12,6 @@ public class ContainerWIthMostWater {
 	private static int maxWater(int[] height) {
 		int l=0;
 		int r = height.length-1;
-		int lmax = 0 ;
-		int rmax = height.length-1;
 		int res=0;
 		int curr=0;
 		while(l<r) {
