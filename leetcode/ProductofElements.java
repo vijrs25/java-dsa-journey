@@ -1,3 +1,4 @@
+package leetcode;
 
 public class ProductofElements {
 //	Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].   
@@ -12,19 +13,13 @@ public class ProductofElements {
 	    //int[] nums  = {-1,1,0,-3,3};
 		int[] resultant = productArray(nums);
 		
-		int[] seats = {1,1,1,0,0,0,};
-		int  res= findtheDistance(seats); 
+//		int[] seats = {1,1,1,0,0,0,};
+//		int  res= findtheDistance(seats); 
 		
 		for(int num: resultant) {
 			System.out.print(num+" ");
 		}
 	}
-	
-	private static int findtheDistance(int[] seats) {
-            3/2 = 1+1 =2 
-            	  =  1+3 =4
-	return 0;
-}
 
 	public static int[] productArray(int[] nums) {
 		int[] pref =  new int[nums.length];
