@@ -28,19 +28,7 @@
 * [x] Sentence Palindrome
 * [ ] Longest Palindromic Substring
 * [ ] Palindromic Substrings
-
-## 📌 Searching and Sorting
-
-* [ ] Search in Rotated Sorted Array
-* [ ] Peak Element
-* [ ] K-th element of two sorted arrays
-* [ ] Allocate Minimum Pages
-* [ ] Kth Missing Positive Number
-* [ ] Sort 0s, 1s and 2s
-* [ ] Count Inversions
-* [ ] Merge two sorted arrays without extra space
-* [ ] Chocolate Distribution Problem
-
+* [ ] 
 ## 📌 Hashing
 
 * [ ] Print all pairs with given sum
@@ -50,7 +38,7 @@
 
 ## 📌 Linked List
 
-* [ ] Reverse a Linked List
+* [x] Reverse a Linked List
 * [ ] Detect Cycle in a Linked List
 * [ ] Merge Two Sorted Lists
 * [ ] Merge K Sorted Lists
