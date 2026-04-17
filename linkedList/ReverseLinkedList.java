@@ -70,11 +70,3 @@ public class ReverseLinkedList {
 	}
 }
 
-class Node {
-	int data;
-	Node next;
-
-	Node(int newData) {
-		this.data = newData;
-	}
-}
