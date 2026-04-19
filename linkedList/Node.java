@@ -153,5 +153,21 @@ public class Node {
 		
 		return prevNode;
 	}
+	
+	 static boolean DetectCycle(Node node){
+		 Node slow = node;
+		 Node fast = node;
+		 
+		 while(slow!= null && fast != null && fast.next !=null)
+			      slow = slow.next;
+		 		  fast = fast.next.next;
+		 		  if(slow == fast) {
+		 			 System.out.println("true");
+		 			  return true;
+		 			  
+		 		  }
+		 		 System.out.println("false");
+		 return false;
+	}
 
 }
