@@ -31,7 +31,7 @@ public class Test {
 			resmax = 0;
 			}
 			
-			max = Math.max(max, resmax);
+		   
 		}
 		System.out.println(max);
 	}

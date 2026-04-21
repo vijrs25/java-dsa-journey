@@ -6,9 +6,9 @@ public class LinkedListMissing {
 	public static void main(String[] args) {
 
 		//int arr[] = { 1, 2, 3, 4 };
-		int arr[] = {3, 5, 9, 10, 11, 12};
-		int k = 8;
-*
+		int arr[] = {2,3, 4,7, 11, 12};
+		int k = 5;
+**
 		System.out.println(arrayCountFast(arr, k));
 		//System.out.println(arrayCount(arr, k));
 
