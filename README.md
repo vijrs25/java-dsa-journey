@@ -39,10 +39,10 @@
 ## 📌 Linked List
 
 * [x] Reverse a Linked List
-* [ ] Detect Cycle in a Linked List
-* [ ] Merge Two Sorted Lists
+* [x] Detect Cycle in a Linked List
+* [x] Merge Two Sorted Lists
 * [ ] Merge K Sorted Lists
-* [ ] Remove Nth Node From End Of List
+* [x] Remove Nth Node From End Of List
 * [ ] Reorder List
 * [ ] Add 1 to a number represented as linked list
 * [ ] Clone a Linked List
